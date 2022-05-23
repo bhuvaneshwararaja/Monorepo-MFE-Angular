@@ -11,4 +11,16 @@ Monorepo using Nx workspace [Nx](https://nx.dev).create a workspace and structur
 # MFE Architecture
 ![Blank diagram (4)](https://user-images.githubusercontent.com/56244773/169873665-0ce56454-d081-492b-a50a-92de2c23b413.jpeg)
 
+##clone the repo
+
+##npm install
+
+To start
+##npm run start:all
+
+for demo micro service [demo microservice](https://github.com/bhuvaneshwararaja/demo-microservices)
+
+
+
+
 
