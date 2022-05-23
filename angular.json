@@ -2,6 +2,15 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "cart": "apps/cart",
+    "cart-e2e": "apps/cart-e2e",
+    "home": "apps/home",
+    "home-e2e": "apps/home-e2e",
+    "product": "apps/product",
+    "product-e2e": "apps/product-e2e",
+    "product-lib": "libs/product-lib",
+    "remote": "apps/remote",
+    "remote-e2e": "apps/remote-e2e",
     "shell": "apps/shell",
     "shell-e2e": "apps/shell-e2e"
   }
