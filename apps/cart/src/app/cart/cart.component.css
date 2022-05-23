@@ -1,0 +1,55 @@
+h1{
+    font-family:cursive;
+}
+.wrapper{
+    width:100%;
+    min-height:90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.basket{
+    font-family:cursive;
+    display:flex;
+    margin:1rem;
+    width:50vw;
+    min-height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.basket-details h1{
+    font-size:1.2rem;
+}
+.basket-details p{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.btn-counter{
+    padding:.2rem .5rem;
+    color:#fff;
+    background-color:crimson;
+    border:none;
+    cursor:pointer;
+}
+.btn-counter-input{
+    margin-top:.5rem;
+    width:2rem;
+    padding:.37rem;
+    border:2px solid crimson;
+}
+.checkout{
+    border:2px solid crimson;
+    padding:0.5rem 1rem;
+    border-radius:10px;
+    background:transparent;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor:pointer;
+    transition: all .5s linear;
+}
+.checkout:active{
+    box-shadow:none;
+}

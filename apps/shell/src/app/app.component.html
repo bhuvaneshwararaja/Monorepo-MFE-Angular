@@ -1,1 +1,22 @@
-<learn-mf-nx-welcome></learn-mf-nx-welcome>
+<nav *ngIf="auth">
+    <ul>
+        <li>
+            <a routerLink="home" >Home</a>
+
+        </li>
+        <li>
+            <a routerLink="product">Products</a>
+            
+        </li>
+        <li>
+            <a routerLink="cart">Cart</a>
+            
+        </li>
+        <li>
+            <a routerLink="login">Login</a>
+            
+        </li>
+    </ul>
+
+</nav>
+<router-outlet></router-outlet>

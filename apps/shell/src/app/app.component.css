@@ -1,0 +1,27 @@
+nav{
+    background:crimson;
+    width:100%;
+    height:auto;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+
+}
+li:not(:first-child){
+    margin-left:1rem;
+}
+li{
+    padding:1rem;
+    color:#fff;
+    font-size:1.1rem;
+    cursor:pointer;
+}
+li:hover{
+    text-decoration:underline;
+}
+li > a{
+    text-decoration:none;
+    color:#fff;
+}

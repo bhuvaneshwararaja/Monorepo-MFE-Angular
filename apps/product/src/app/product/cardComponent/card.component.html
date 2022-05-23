@@ -1,0 +1,9 @@
+<div class="card">
+    <div class="product-details">
+            <h2>{{product.title | slice:0:10}} ...</h2>
+            <p>{{product.description | slice:0:50 }} ...</p>
+            <a>view details</a>
+            <h1>{{product.price | currency:"INR"}}</h1>
+            <button class="add" (click)="addToCart(index)">Add to Cart</button>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+
+.card{
+    width:15rem;
+    min-height:15rem;
+    padding:.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius:10px;
+    margin:1rem;
+    transition:all .2s linear;
+}
+
+.card:hover{
+    box-shadow: rgba(220, 20, 60, 0.3) 0px 1px 2px 0px, rgba(220, 20, 60, 0.15) 0px 2px 6px 2px;
+    
+
+}
+.product-details{
+    font-family: cursive;
+    padding:.5rem 1rem;
+}
+
+.product-details h2{
+    font-size: 1.2rem;
+}
+.product-details p,.product-details h1,.add{
+    margin-top:1rem;
+}
+.product-details a{
+    color:crimson;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+.product-details h1{
+    font-size:1.3rem;
+}
+
+.add{
+    padding:.5rem;
+    background:green;
+    color:#fff;
+    cursor:pointer;
+    border:none;
+    border-radius: 10px;
+    
+
+}

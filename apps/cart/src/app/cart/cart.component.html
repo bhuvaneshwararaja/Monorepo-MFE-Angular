@@ -1,0 +1,20 @@
+<div class="wrapper">
+<h1>Your Basket</h1>
+
+<div *ngFor="let basket of basketItem" class="basket" >
+    <div class="basket-details">
+        <h1>{{basket.title | slice:0:10}}</h1>
+        <div>
+            <button class="btn-counter">-</button>
+            <input type="text" class="btn-counter-input"  #itemQuantity [value]="basket.quantity">
+            <button class="btn-counter">+</button>
+        </div>
+    </div>
+    <div>
+        <h1>{{basket.price | currency:"INR"}}</h1>
+        <p>Quantity <span>{{basket.quantity}}</span></p>
+    </div>
+</div>
+<h1>Total Amount : {{totalAmount | currency:"INR"}}</h1>
+<button class="checkout">Checkout</button>
+</div>

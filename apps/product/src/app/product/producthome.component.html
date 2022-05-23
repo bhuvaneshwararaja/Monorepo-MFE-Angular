@@ -1,0 +1,6 @@
+<div class="card-wrapper">
+    <learn-mf-card  *ngFor="let product of productList  | slice:0:productViewCount; let i = index" [index]="i"  [product]="product"></learn-mf-card>
+</div>
+<div  class="view-more">
+    <button *ngIf="btnActive" (click)="pushProduct()">View More</button>
+</div>

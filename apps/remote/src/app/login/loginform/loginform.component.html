@@ -1,0 +1,14 @@
+<form (ngSubmit)="onSubmit()" #login="ngForm">  
+    <div class="flex">
+        <label>Username</label>
+        <input type="text" class="flex-inp" name="username" ngModel> 
+    </div>
+    <div class="flex">
+        <label>Password</label>
+        <input type="password" class="flex-inp" name="password" ngModel> 
+    </div>
+    <div class="flex"> 
+        <button type="submit" class="btn-submit" >Login</button>
+    </div>
+
+</form>
